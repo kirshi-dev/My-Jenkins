@@ -1,5 +1,7 @@
 pipeline{
-    agent lovehope
+    agent { 
+                label 'lovehope'
+            }
        stages{
         stage('Deploy to Remote'){
             steps{
